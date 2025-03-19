@@ -1,0 +1,161 @@
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.upload-section {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+.conversation {
+  height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.message {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.user {
+  background-color: #e6f7ff;
+}
+
+.assistant {
+  background-color: #f6f6f6;
+}
+
+.system {
+  background-color: #f0f8e5;
+  font-style: italic;
+}
+
+.error {
+  background-color: #ffebee;
+  color: #c62828;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+.personality-selector {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.personality-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.personality-button {
+  padding: 10px 15px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #1976d2;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.personality-button:hover:not(:disabled) {
+  background-color: #f0f0f0;
+}
+
+.personality-button.active {
+  border-color: #4CAF50;
+  background-color: #1976d2;
+}
+
+.personality-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.personality-description {
+  font-style: italic;
+  color: #666;
+  text-align: center;
+}
+.upload-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.upload-section button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.upload-section button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.uploaded-files {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.uploaded-files ul {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.uploaded-files li {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
