@@ -4,6 +4,8 @@
 An AI-based web app that reads and understands documents, summarizes them, and answers your questions in a chat interface.
 
 ## Usage
+[Note: If using on Render link, the server boot up may take some time (10-15 seconds)]
+
 This app can be used at this link (https://document-qa-frontend.onrender.com/) or can be run locally using the below instructions. 
 Once opened, choose a personality style from:
 - Normal: A smart, helpful assistant
